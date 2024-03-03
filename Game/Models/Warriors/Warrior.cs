@@ -67,14 +67,17 @@ namespace Game.Models.Warriors
 
         public double Attack()
         {
+            if (AttackDamage <= 0) return 0;
             return random.Next(1, (int)AttackDamage);
         }
         public virtual double Block()
         {
+            if (Armor <= 0) return 0;
             return random.Next(1, (int)Armor);
         }
         public virtual double Guard()
         {
+            if (BlockChance <= 0) return 0;
             return random.Next(1, (int)BlockChance + 1);
         }
     }

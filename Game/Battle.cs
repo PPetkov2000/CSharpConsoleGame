@@ -40,7 +40,8 @@ namespace Game
                 Console.WriteLine($"{warriorTwo.Name} has Died and {warriorOne.Name} is Victorious\n");
                 return "Game Over";
             }
-            return "Fight Again";
+
+            return "Fight";
         }
     }
 }

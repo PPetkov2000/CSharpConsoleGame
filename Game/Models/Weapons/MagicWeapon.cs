@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Game.Models.Weapons
+﻿namespace Game.Models.Weapons
 {
-    class MagicWeapon
+    class MagicWeapon : Weapon
     {
+        public MagicWeapon(
+            string type,
+            double durability = 0,
+            double damage = 0,
+            double weight = 0,
+            double maxBlockDamage = 0,
+            double attackSpeed = 0
+        ) : base(type, durability, damage, weight, maxBlockDamage, attackSpeed)
+        {
+        }
     }
 }

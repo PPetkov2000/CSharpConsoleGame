@@ -7,5 +7,10 @@
         double Damage { get; set; }
         double Weight { get; set; }
         double MaxBlockDamage { get; set; }
+        double AttackSpeed { get; set; }
+        bool Broken { get; set; }
+
+        void Attack();
+        void Block();
     }
 }

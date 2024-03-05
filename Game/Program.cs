@@ -9,10 +9,10 @@ namespace Game
         {
             MeleeWeapon knife = new MeleeWeapon(type: "Knife", durability: 100, damage: 20);
             MeleeWeapon sword = new MeleeWeapon(type: "Sword", durability: 100, damage: 30);
-            RangedWeapon pistol = new RangedWeapon(type: "Pistol", durability: 100, range: 400, ammo: 250, ammoCapacity: 20, damage: 30, accuracy: 90);
-            RangedWeapon bow = new RangedWeapon(type: "Bow", durability: 100, damage: 10, weight: 5, range: 50, ammo: int.MaxValue, ammoCapacity: int.MaxValue, accuracy: 98);
+            RangedWeapon pistol = new RangedWeapon(type: "Pistol", durability: 100, range: 400, ammo: 250, damage: 30, accuracy: 90);
+            RangedWeapon bow = new RangedWeapon(type: "Bow", durability: 100, damage: 10, weight: 5, range: 50, ammo: int.MaxValue, accuracy: 98);
             DefenceWeapon shield = new DefenceWeapon(type: "Shield", durability: 100, damage: 10, weight: 10, maxBlockDamage: 200);
-            RangedWeapon staff = new RangedWeapon(type: "Staff", durability: 100, damage: 40, weight: 5, range: 300, ammo: int.MaxValue, ammoCapacity: int.MaxValue, accuracy: 80);
+            RangedWeapon staff = new RangedWeapon(type: "Staff", durability: 100, damage: 40, weight: 5, range: 300, ammo: int.MaxValue, accuracy: 80);
             MeleeWeapon hammer = new MeleeWeapon(type: "Hammer", durability: 100, damage: 60, weight: 15);
             MeleeWeapon axe = new MeleeWeapon(type: "Axe", durability: 100, damage: 80, weight: 20);
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Game.Models.Weapons;
+﻿using Game.Models.Weapons;
 
 namespace Game.Interfaces.Warriors
 {

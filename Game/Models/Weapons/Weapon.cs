@@ -10,7 +10,9 @@ namespace Game.Models.Weapons
         public double Weight { get; set; }
         public double MaxBlockDamage { get; set; }
         public double AttackSpeed { get; set; }
-        public bool Broken { get; set; }
+        public bool? Broken { get; set; } = false;
+        //public double Price { get; set; }
+        //public string? Description { get; set; }
 
         public Weapon(
             string type,

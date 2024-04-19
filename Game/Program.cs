@@ -37,7 +37,7 @@ namespace Game
 
             Warrior[] warriors = [thor, loki, hulk, captainAmerica, ironMan, hawkeye, blackWidow];
             Random.Shared.Shuffle(warriors);
-            Console.WriteLine("Shuffled warriors");
+            Console.WriteLine($"Shuffled warriors: {warriors}");
             foreach (var warrior in warriors)
             {
                 Console.WriteLine(warrior.Name);

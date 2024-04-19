@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Game
+﻿namespace Game
 {
-    internal class CantTeleport : Teleports
+    public class CantTeleport : Teleports
     {
         public string teleport()
         {

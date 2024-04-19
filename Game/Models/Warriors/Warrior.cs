@@ -21,8 +21,9 @@ namespace Game.Models.Warriors
         public double Perception { get; set; }
         public double Intelligence { get; set; }
         public int Level { get; set; }
+        //public string Rank { get; set; }
+        //public string? Description { get; set; }
         public List<Weapon>? Weapons { get; set; }
-        List<Weapon>? IWarrior.Weapons { get; set; }
 
         Random random = new Random();
 

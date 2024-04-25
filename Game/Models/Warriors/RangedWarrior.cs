@@ -1,32 +1,50 @@
 ﻿using Game.Models.Weapons;
 
+using Serilog;
+
 namespace Game.Models.Warriors
 {
-    class RangedWarrior : Warrior
+    public class RangedWarrior : Warrior
     {
-        double accuracy = 0;
+        public double Accuracy { get; set; }
+
+        Random random = new Random();
+
         public RangedWarrior(
             string name = "RangedWarrior",
-            double health = 0,
-            double attackDamage = 0,
-            double attackSpeed = 0,
+            double health = 100,
+            double attackDamage = 10,
             double armor = 0,
             double blockChance = 0,
-            double stamina = 0,
-            double energy = 0,
-            double mana = 0,
-            double weight = 0,
-            double speed = 0,
-            double agility = 0,
-            double endurance = 0,
-            double perception = 0,
-            double intelligence = 0,
-            int level = 0,
-            List<Weapon>? weapons = null,
-            double accuracy = 0
-        ) : base(name, health, attackDamage, attackSpeed, armor, blockChance, stamina, energy, mana, weight, speed, agility, endurance, perception, intelligence, level, weapons)
+            double accuracy = 0,
+            List<Weapon>? weapons = null
+        ) : base(name)
         {
-            this.accuracy = accuracy;
+            Name = name;
+            Health = health;
+            AttackDamage = attackDamage;
+            Armor = armor;
+            BlockChance = blockChance;
+            Weapons = weapons;
+            Accuracy = accuracy;
+        }
+
+        public override double Attack(Warrior enemyWarrior)
+        {
+            int randomMiss = random.Next(1, 100);
+            if (Accuracy <= randomMiss)
+            {
+                Log.Information("Ranged Warrior {Name} attack missed", Name);
+                return 0;
+            }
+            Log.Information("Ranged Warrior {Name} attacks {enemyWarrior}", Name, enemyWarrior.Name);
+            return base.Attack(enemyWarrior);
+        }
+
+        public override bool Block()
+        {
+            Log.Information("Ranged Warrior {Name} blocks enemy attack", Name);
+            return base.Block();
         }
     }
 }

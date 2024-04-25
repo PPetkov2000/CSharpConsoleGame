@@ -1,8 +1,10 @@
 ﻿using Game.Models.Warriors;
 
+using Serilog;
+
 namespace Game.Models.Weapons
 {
-    class AttackWeapon : Weapon
+    public class AttackWeapon : Weapon
     {
         Random random = new Random();
 
@@ -12,33 +14,33 @@ namespace Game.Models.Weapons
             double damage = 0,
             double weight = 0,
             double attackSpeed = 0
-        ) : base(type, durability, damage, weight, attackSpeed)
+        ) : base(type)
         {
         }
 
-        public void Attack(Warrior enemyWarrior)
+        public override void Attack(Warrior enemyWarrior)
         {
             int randomBlock = random.Next(1, 100);
 
             if (randomBlock < enemyWarrior.BlockChance)
             {
-                Console.WriteLine($"{Type} attack was blocked");
+                Log.Information("{Type} attack was blocked", Type);
                 return;
             }
 
-            double damageDealt = Damage - enemyWarrior.Armor;
+            double damageDealt = Damage - (enemyWarrior.Armor ?? 0);
 
             if (damageDealt > 0)
             {
                 enemyWarrior.Health = enemyWarrior.Health - damageDealt;
-                Console.WriteLine($"Warrior {enemyWarrior.Name} took {damageDealt} damage");
+                Log.Information("Warrior {enemyWarrior} took {damageDealt} damage", enemyWarrior.Name, damageDealt);
                 if (enemyWarrior.Health <= 0)
                 {
-                    Console.WriteLine($"Warrior {enemyWarrior.Name} died");
+                    Log.Information("Warrior {enemyWarrior} died", enemyWarrior.Name);
                 }
             }
 
-            Console.WriteLine($"Weapon {Type} deals 0 damage to {enemyWarrior.Name}");
+            Log.Information("Weapon {Type} deals 0 damage to {enemyWarrior}", Type, enemyWarrior.Name);
         }
     }
 }

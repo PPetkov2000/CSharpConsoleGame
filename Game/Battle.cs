@@ -1,43 +1,47 @@
 ﻿using Game.Models.Warriors;
 
+using Serilog;
+
 namespace Game
 {
     class Battle
     {
-        public static void StartFight(Warrior warrior1, Warrior warrior2)
+        public static void StartFight(Warrior warriorOne, Warrior warriorTwo)
         {
+            if (warriorOne.WeaponsInUse.Count == 0)
+            {
+                Log.Information("Warrior {warriorOne} is unequipped. You could use some weapon", warriorOne.Name);
+            }
             while (true)
             {
-                if (GetAttackResult(warrior1, warrior2) == "Game Over")
+                if (GetBattleResult(warriorOne, warriorTwo) == "Game Over")
                 {
-                    Console.WriteLine("Game Over");
+                    Log.Information("Game Over");
                     break;
                 }
-                if (GetAttackResult(warrior2, warrior1) == "Game Over")
+                if (GetBattleResult(warriorTwo, warriorOne) == "Game Over")
                 {
-                    Console.WriteLine("Game Over");
+                    Log.Information("Game Over");
                     break;
                 }
             }
         }
 
-        public static string GetAttackResult(Warrior warriorOne, Warrior warriorTwo)
+        public static string GetBattleResult(Warrior warriorOne, Warrior warriorTwo)
         {
-            double warriorOneAttackAmount = warriorOne.Attack();
-            double warriorTwoArmorAmount = warriorTwo.Block();
-            double warriorTwoBlockedAttack = warriorTwo.Guard();
-            double damageToWarriorTwo = warriorOneAttackAmount - warriorTwoArmorAmount;
+            var damageToWarriorTwo = warriorOne.Attack(warriorTwo);
+            var blockedAttack = warriorTwo.Block();
 
-            if (damageToWarriorTwo > 0 && warriorTwoBlockedAttack != 10000)
+            if (damageToWarriorTwo > 0 && blockedAttack == false)
             {
                 warriorTwo.Health = warriorTwo.Health - damageToWarriorTwo;
-                Console.WriteLine($"{warriorOne.Name} Attacks {warriorTwo.Name} and Deals {damageToWarriorTwo} Damage");
-                Console.WriteLine($"{warriorTwo.Name} has {warriorTwo.Health} health left\n");
+                Log.Information("{warriorOne} Attacks {warriorTwo} and Deals {damageToWarriorTwo} Damage", warriorOne.Name, warriorTwo.Name, damageToWarriorTwo);
+                Log.Information("{warriorTwo} has {warriorTwoHealth} health left", warriorTwo.Name, warriorTwo.Health);
             }
 
             if (warriorTwo.Health <= 0)
             {
-                Console.WriteLine($"{warriorTwo.Name} has Died and {warriorOne.Name} is Victorious\n");
+                Log.Information("{warriorTwo} has Died and {warriorOne} is Victorious", warriorTwo.Name, warriorOne.Name);
                 return "Game Over";
             }
 

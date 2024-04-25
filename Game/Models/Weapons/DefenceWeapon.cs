@@ -1,8 +1,10 @@
 ﻿using Game.Models.Warriors;
 
+using Serilog;
+
 namespace Game.Models.Weapons
 {
-    class DefenceWeapon : Weapon
+    public class DefenceWeapon : Weapon
     {
         Random random = new Random();
 
@@ -13,7 +15,7 @@ namespace Game.Models.Weapons
             double weight = 0,
             double maxBlockDamage = 0,
             double attackSpeed = 0
-        ) : base(type, durability, damage, weight, maxBlockDamage, attackSpeed)
+        ) : base(type)
         {
         }
 
@@ -23,29 +25,31 @@ namespace Game.Models.Weapons
             {
                 return;
             }
-            int randomBlockDamage = random.Next(1, (int)MaxBlockDamage);
-            double damageTaken = enemyWarrior.AttackDamage - randomBlockDamage;
+            //var enemyWarriorDamageAfterArmorReduce = enemyWarrior.AttackDamage - (enemyWarrior.AttackDamage * (currentWarrior.Armor / 100));
+            double enemyWarriorAttackDamage = (enemyWarrior.AttackDamage ?? 0);
+            int randomBlockDamage = random.Next(1, (int)(MaxBlockDamage ?? 0));
+            double damageTaken = enemyWarriorAttackDamage - randomBlockDamage;
 
             if (enemyWarrior.AttackDamage >= MaxBlockDamage)
             {
-                double lostDurability = (enemyWarrior.AttackDamage / (enemyWarrior.AttackDamage - MaxBlockDamage));
+                double lostDurability = (enemyWarriorAttackDamage / (enemyWarriorAttackDamage - (MaxBlockDamage ?? 0)));
                 Durability = Durability - lostDurability;
                 if (Durability <= 0)
                 {
-                    Console.WriteLine($"Weapon {Type} is broken and can't be used anymore");
-                    Broken = false;
+                    Log.Information("Weapon {Type} is broken and can't be used anymore", Type);
+                    Broken = true;
                     return;
                 }
-                Console.WriteLine($"Weapon {Type} lost {lostDurability} durability");
+                Log.Information("Weapon {Type} lost {lostDurability} durability", Type, lostDurability);
             }
 
             if (damageTaken <= 0)
             {
-                Console.WriteLine($"Weapon {Type} blocks enemy attack");
+                Log.Information("Weapon {Type} blocks enemy attack", Type);
                 return;
             }
 
-            Console.WriteLine($"Weapon {Type} blocks {randomBlockDamage} damage");
+            Log.Information("Weapon {Type} blocks {randomBlockDamage} damage", Type, randomBlockDamage);
         }
     }
 }

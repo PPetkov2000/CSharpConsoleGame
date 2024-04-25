@@ -1,6 +1,6 @@
 ﻿namespace Game.Interfaces.Weapons
 {
-    interface IMeleeWeapon : IWeapon
+    public interface IMeleeWeapon : IWeapon
     {
     }
 }

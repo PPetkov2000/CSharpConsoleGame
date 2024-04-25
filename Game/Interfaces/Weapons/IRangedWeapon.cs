@@ -1,10 +1,12 @@
 ﻿namespace Game.Interfaces.Weapons
 {
-    interface IRangedWeapon : IWeapon
+    public interface IRangedWeapon : IWeapon
     {
         double Range { get; set; }
         int Ammo { get; set; }
-        double ManaCost { get; set; }
-        double Accuracy { get; set; }
+        int? AmmoFiller { get; set; }
+        int? AmmoFillerSize { get; set; }
+        double? ManaCost { get; set; }
+        double? Accuracy { get; set; }
     }
 }

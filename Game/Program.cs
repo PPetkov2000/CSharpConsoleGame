@@ -2,7 +2,6 @@
 using Game.Models.Weapons;
 
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
 
 using Serilog;
 
@@ -12,18 +11,13 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            var builder = new ConfigurationBuilder();
-            BuildConfig(builder);
-            var host = Host.CreateDefaultBuilder()
-                .ConfigureServices((context, services) =>
-                {
-                    //services.AddTransient<IGreetingService, GreetingService>();
-                })
-                .UseSerilog()
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
                 .Build();
-            //var svc = ActivatorUtilities.CreateInstance<GreetingService>(host.Services);
-            Console.WriteLine(12312321);
-            Log.Information("{test}", 123);
+
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
 
             MeleeWeapon knife = new MeleeWeapon(type: "Knife", durability: 100, damage: 20);
             MeleeWeapon sword = new MeleeWeapon(type: "Sword", durability: 100, damage: 30);
@@ -48,7 +42,7 @@ namespace Game
             RangedWarrior hawkeye = new RangedWarrior(name: "Hawkeye", health: 100, attackDamage: 10, armor: 2, blockChance: 10, weapons: hawkEyeWeapons);
             RangedWarrior blackWidow = new RangedWarrior(name: "Black Widow", health: 100, attackDamage: 10, armor: 2, blockChance: 10, weapons: blackWidowWeapons);
 
-            Log.Information("Battle Started\n");
+            Log.Information("Battle Started");
             Battle.StartFight(thor, loki);
             // Battle.StartFight(thor, hulk);
             // Battle.StartFight(captainAmerica, ironMan);
@@ -59,19 +53,14 @@ namespace Game
             Warrior[] superHumanWarriors = [hulk, captainAmerica, ironMan];
             Warrior[] alienWarriors = [thor, loki];
             Random.Shared.Shuffle(warriors);
-            Log.Information("Shuffled warriors: {warriorsLength}", warriors.Length);
+            Log.Information("Human Warriors: {humanWarriorsCount}", humanWarriors.Length);
+            Log.Information("SuperHuman Warriors: {superHumanWarriorsCount}", superHumanWarriors.Length);
+            Log.Information("Alien Warriors: {alienWarriorsCount}", alienWarriors.Length);
+            Log.Information("Total Warriors: {warriorsLength}", warriors.Length);
             foreach (var warrior in warriors)
             {
                 Log.Information("Warrior: {warrior}", warrior.Name);
             }
-        }
-
-        static void BuildConfig(IConfigurationBuilder builder)
-        {
-            builder.SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json")
-                .AddEnvironmentVariables();
         }
     }
 }

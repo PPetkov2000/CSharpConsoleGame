@@ -26,7 +26,7 @@ namespace Game.Models.Warriors
         public int? Level { get; set; } = 1;
         public string? Rank { get; set; } = "";
         public string? Description { get; set; } = "";
-        public double? BaseAttackDamage { get { return Level * 10; } }
+        public double? BonusAttackDamage { get { return Level * 10; } }
         public List<Weapon> Weapons { get; set; } = new List<Weapon>();
         public List<Weapon> WeaponsInUse { get; set; } = new List<Weapon>();
         public int? MaxWeaponsInUseAtOnce { get; set; } = 2;
@@ -80,14 +80,14 @@ namespace Game.Models.Warriors
 
         public virtual double Attack(Warrior enemyWarrior)
         {
+            double damageFromWeapons = 0;
             WeaponsInUse.ForEach(w =>
             {
-                //w.Attack(enemyWarrior);
-                Log.Information("Weapon in use: {Type} with {Damage} damage", w.Type, w.Damage);
+                damageFromWeapons += w.Attack(enemyWarrior);
             });
 
-            var damageFromWeapons = WeaponsInUse.Sum(w => w.Damage);
-            var totalAttackDamage = BaseAttackDamage + damageFromWeapons;
+            //var damageFromWeapons = WeaponsInUse.Sum(w => w.Damage);
+            var totalAttackDamage = AttackDamage + BonusAttackDamage + damageFromWeapons;
             if (totalAttackDamage == null || totalAttackDamage <= 0)
             {
                 return 0;
@@ -100,14 +100,35 @@ namespace Game.Models.Warriors
             return (double)damageAfterArmorReduce;
         }
 
-        public virtual bool Block()
+        public virtual bool Block(Warrior? enemyWarrior)
         {
-            if (BlockChance == null || BlockChance <= 0)
+            //double blockChanceFromWeapons = 0;
+            //WeaponsInUse.ForEach(w =>
+            //{
+            //    blockChanceFromWeapons += w.Block(enemyWarrior);
+            //});
+            //var blockChanceFromWeapons = WeaponsInUse.Sum(w => w.BlockChance);
+            //var highestBlockChanceFromWeapon = WeaponsInUse.Max(w => w.BlockChance);
+            //var totalBlockChance = BlockChance + highestBlockChanceFromWeapon;
+            //var totalBlockChance = BlockChance + blockChanceFromWeapons;
+            double totalBlockChance = 0;
+            var weaponWithHighestBlockChance = WeaponsInUse.Where(w => w.BlockChance > 0).OrderByDescending(w => w.BlockChance).FirstOrDefault();
+            if (weaponWithHighestBlockChance == null)
+            {
+                totalBlockChance = BlockChance ?? 0;
+            }
+            else
+            {
+                totalBlockChance = weaponWithHighestBlockChance.Block(enemyWarrior);
+            }
+
+            if (totalBlockChance <= 0)
             {
                 return false;
             }
+
             int randomBlockNumber = random.Next(1, 100);
-            if (randomBlockNumber < BlockChance)
+            if (randomBlockNumber < totalBlockChance)
             {
                 Log.Information("{Name} Blocked Enemy Attack", Name);
                 return true;
@@ -172,6 +193,27 @@ namespace Game.Models.Warriors
                 else
                 {
                     Log.Information("The weapon you chose to pick is already in use: {weapon}", weapon.Type);
+                }
+            }
+        }
+
+        public void Equip(List<Weapon>? weapons)
+        {
+            if (weapons == null)
+            {
+                Log.Information("No weapons to equip");
+            }
+            else
+            {
+                if (WeaponsInUse.Count == 0)
+                {
+                    foreach (var weapon in weapons)
+                    {
+                        if (WeaponsInUse.Count < MaxWeaponsInUseAtOnce)
+                        {
+                            WeaponsInUse.Add(weapon);
+                        }
+                    }
                 }
             }
         }

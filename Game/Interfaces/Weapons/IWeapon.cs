@@ -8,6 +8,7 @@ namespace Game.Interfaces.Weapons
         double Damage { get; set; }
         double? Durability { get; set; }
         double? Weight { get; set; }
+        double? BlockChance { get; set; }
         double? MaxBlockDamage { get; set; }
         double? AttackSpeed { get; set; }
         bool? Broken { get; set; }
@@ -15,7 +16,7 @@ namespace Game.Interfaces.Weapons
         //Warrior? Warrior { get; set; }
         //string? WarriorName { get; set; }
 
-        void Attack(Warrior enemyWarrior);
-        void Block(Warrior? enemyWarrior);
+        double Attack(Warrior enemyWarrior);
+        double Block(Warrior? enemyWarrior);
     }
 }

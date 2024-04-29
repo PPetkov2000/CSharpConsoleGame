@@ -1,0 +1,606 @@
+04/28/2024 03:52:20 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 03:52:21 Melee Warrior Thor attacked Game.Models.Warriors.MagicWarrior
+04/28/2024 03:52:21 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 03:52:21 "Loki" has 146 health left
+04/28/2024 03:52:21 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:21 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:21 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 95.8
+04/28/2024 03:52:21 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:21 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 94.4
+04/28/2024 03:52:21 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:21 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:21 Melee Warrior Thor attacked Game.Models.Warriors.MagicWarrior
+04/28/2024 03:52:21 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 03:52:21 "Loki" has 92 health left
+04/28/2024 03:52:21 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:21 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:21 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:21 "Thor" has 216 health left
+04/28/2024 03:52:21 Melee Warrior Thor attacked Game.Models.Warriors.MagicWarrior
+04/28/2024 03:52:21 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:21 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:21 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:21 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:21 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 91.6
+04/28/2024 03:52:21 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:21 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 88.80000000000001
+04/28/2024 03:52:21 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:21 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:21 Melee Warrior Thor attacked Game.Models.Warriors.MagicWarrior
+04/28/2024 03:52:21 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 03:52:21 "Loki" has 38 health left
+04/28/2024 03:52:21 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:21 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:21 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:21 "Thor" has 132 health left
+04/28/2024 03:52:21 Melee Warrior Thor attacked Game.Models.Warriors.MagicWarrior
+04/28/2024 03:52:21 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:21 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:21 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 03:52:21 "Loki" has -16 health left
+04/28/2024 03:52:21 "Loki" has Died and "Thor" is Victorious
+04/28/2024 03:52:21 Game Over
+04/28/2024 03:52:21 Human Warriors: 2
+04/28/2024 03:52:21 SuperHuman Warriors: 3
+04/28/2024 03:52:21 Alien Warriors: 2
+04/28/2024 03:52:21 Total Warriors: 7
+04/28/2024 03:52:21 Warrior: "Black Widow"
+04/28/2024 03:52:21 Warrior: "Captain America"
+04/28/2024 03:52:21 Warrior: "Iron Man"
+04/28/2024 03:52:21 Warrior: "Hulk"
+04/28/2024 03:52:21 Warrior: "Loki"
+04/28/2024 03:52:21 Warrior: "Hawkeye"
+04/28/2024 03:52:21 Warrior: "Thor"
+04/28/2024 03:52:48 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 95.8
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 94.4
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:49 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 91.6
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 88.80000000000001
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:49 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 03:52:49 "Loki" has 146 health left
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 87.39999999999999
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 83.20000000000002
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:49 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked enemy attack and lost 4.2 durability. Durability left: 83.19999999999999
+04/28/2024 03:52:49 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked enemy attack and lost 5.6 durability. Durability left: 77.60000000000002
+04/28/2024 03:52:49 Melee Weapon "Axe" blocked 56 damage
+04/28/2024 03:52:49 "Thor" Blocked Enemy Attack
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:49 "Thor" has 132 health left
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:49 "Thor" has 76 health left
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:49 "Thor" has 20 health left
+04/28/2024 03:52:49 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 03:52:49 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 03:52:49 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 03:52:49 Weapon "Staff" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Blocked Enemy Attack
+04/28/2024 03:52:49 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 03:52:49 Ranged Weapon "Staff" killed warrior "Thor"
+04/28/2024 03:52:49 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 03:52:49 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 03:52:49 "Thor" has -36 health left
+04/28/2024 03:52:49 "Thor" has Died and "Loki" is Victorious
+04/28/2024 03:52:49 Game Over
+04/28/2024 03:52:49 Human Warriors: 2
+04/28/2024 03:52:49 SuperHuman Warriors: 3
+04/28/2024 03:52:49 Alien Warriors: 2
+04/28/2024 03:52:49 Total Warriors: 7
+04/28/2024 03:52:49 Warrior: "Thor"
+04/28/2024 03:52:49 Warrior: "Black Widow"
+04/28/2024 03:52:49 Warrior: "Hawkeye"
+04/28/2024 03:52:49 Warrior: "Captain America"
+04/28/2024 03:52:49 Warrior: "Loki"
+04/28/2024 03:52:49 Warrior: "Hulk"
+04/28/2024 03:52:49 Warrior: "Iron Man"
+04/28/2024 16:06:04 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 16:06:04 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 16:06:04 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 16:06:04 "Loki" has 146 health left
+04/28/2024 16:06:04 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 16:06:04 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 16:06:04 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 16:06:04 "Thor" has 272 health left
+04/28/2024 16:06:04 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 16:06:04 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 16:06:04 "Loki" has 92 health left
+04/28/2024 16:06:04 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 16:06:04 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 16:06:04 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 16:06:04 "Thor" has 244 health left
+04/28/2024 16:06:04 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 16:06:04 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 16:06:04 "Loki" has 38 health left
+04/28/2024 16:06:04 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 16:06:04 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 16:06:04 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 16:06:04 "Thor" has 216 health left
+04/28/2024 16:06:04 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 16:06:04 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 16:06:04 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 16:06:04 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 16:06:04 "Loki" has -16 health left
+04/28/2024 16:06:04 "Loki" has Died and "Thor" is Victorious
+04/28/2024 16:06:04 Game Over
+04/28/2024 16:06:04 Human Warriors: 2
+04/28/2024 16:06:04 SuperHuman Warriors: 3
+04/28/2024 16:06:04 Alien Warriors: 2
+04/28/2024 16:06:04 Total Warriors: 7
+04/28/2024 16:06:04 Warrior: "Hawkeye"
+04/28/2024 16:06:04 Warrior: "Loki"
+04/28/2024 16:06:04 Warrior: "Black Widow"
+04/28/2024 16:06:04 Warrior: "Thor"
+04/28/2024 16:06:04 Warrior: "Iron Man"
+04/28/2024 16:06:04 Warrior: "Hulk"
+04/28/2024 16:06:04 Warrior: "Captain America"
+04/28/2024 17:00:57 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 17:01:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:08 "Loki" has 146 health left
+04/28/2024 17:01:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:08 "Thor" has 272 health left
+04/28/2024 17:01:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:08 "Loki" has 92 health left
+04/28/2024 17:01:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:08 "Thor" has 244 health left
+04/28/2024 17:01:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:08 "Loki" has 38 health left
+04/28/2024 17:01:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:08 "Thor" has 216 health left
+04/28/2024 17:01:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:08 "Loki" has -16 health left
+04/28/2024 17:01:08 "Loki" has Died and "Thor" is Victorious
+04/28/2024 17:01:08 Game Over
+04/28/2024 17:01:08 Human Warriors: 2
+04/28/2024 17:01:08 SuperHuman Warriors: 3
+04/28/2024 17:01:08 Alien Warriors: 2
+04/28/2024 17:01:08 Total Warriors: 7
+04/28/2024 17:01:08 Warrior: "Captain America"
+04/28/2024 17:01:08 Warrior: "Black Widow"
+04/28/2024 17:01:08 Warrior: "Thor"
+04/28/2024 17:01:08 Warrior: "Hulk"
+04/28/2024 17:01:08 Warrior: "Iron Man"
+04/28/2024 17:01:08 Warrior: "Loki"
+04/28/2024 17:01:08 Warrior: "Hawkeye"
+04/28/2024 17:01:15 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 17:01:15 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:15 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:15 "Loki" has 146 health left
+04/28/2024 17:01:15 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:15 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:15 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:15 "Thor" has 272 health left
+04/28/2024 17:01:15 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:15 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:15 "Loki" has 92 health left
+04/28/2024 17:01:15 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:15 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:15 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:15 "Thor" has 244 health left
+04/28/2024 17:01:15 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:15 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:15 "Loki" has 38 health left
+04/28/2024 17:01:15 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:01:15 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:01:15 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:01:15 "Thor" has 216 health left
+04/28/2024 17:01:15 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:01:15 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:01:15 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:01:15 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:01:15 "Loki" has -16 health left
+04/28/2024 17:01:15 "Loki" has Died and "Thor" is Victorious
+04/28/2024 17:01:15 Game Over
+04/28/2024 17:01:15 Human Warriors: 2
+04/28/2024 17:01:15 SuperHuman Warriors: 3
+04/28/2024 17:01:15 Alien Warriors: 2
+04/28/2024 17:01:15 Total Warriors: 7
+04/28/2024 17:01:15 Warrior: "Black Widow"
+04/28/2024 17:01:15 Warrior: "Thor"
+04/28/2024 17:01:15 Warrior: "Iron Man"
+04/28/2024 17:01:15 Warrior: "Hawkeye"
+04/28/2024 17:01:15 Warrior: "Loki"
+04/28/2024 17:01:15 Warrior: "Hulk"
+04/28/2024 17:01:15 Warrior: "Captain America"
+04/28/2024 17:02:08 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 17:02:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:02:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:02:08 "Loki" has 146 health left
+04/28/2024 17:02:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:02:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:02:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:02:08 "Thor" has 272 health left
+04/28/2024 17:02:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:02:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:02:08 "Loki" has 92 health left
+04/28/2024 17:02:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:02:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:02:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:02:08 "Thor" has 244 health left
+04/28/2024 17:02:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:02:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:02:08 "Loki" has 38 health left
+04/28/2024 17:02:08 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 17:02:08 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 17:02:08 "Loki" Attacked "Thor" and Dealt 28 Damage
+04/28/2024 17:02:08 "Thor" has 216 health left
+04/28/2024 17:02:08 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 17:02:08 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 17:02:08 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 17:02:08 "Thor" Attacked "Loki" and Dealt 54 Damage
+04/28/2024 17:02:08 "Loki" has -16 health left
+04/28/2024 17:02:08 "Loki" has Died and "Thor" is Victorious
+04/28/2024 17:02:08 Game Over
+04/28/2024 17:02:08 Human Warriors: 2
+04/28/2024 17:02:08 SuperHuman Warriors: 3
+04/28/2024 17:02:08 Alien Warriors: 2
+04/28/2024 17:02:08 Total Warriors: 7
+04/28/2024 17:02:08 Warrior: "Black Widow"
+04/28/2024 17:02:08 Warrior: "Captain America"
+04/28/2024 17:02:08 Warrior: "Loki"
+04/28/2024 17:02:08 Warrior: "Thor"
+04/28/2024 17:02:08 Warrior: "Iron Man"
+04/28/2024 17:02:08 Warrior: "Hulk"
+04/28/2024 17:02:08 Warrior: "Hawkeye"
+04/28/2024 19:30:51 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:30:51 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:30:51 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:30:51 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:30:51 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:30:51 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:30:51 "Thor" Attacked "Loki" and Dealt 180 Damage
+04/28/2024 19:30:51 "Loki" has 20 health left
+04/28/2024 19:30:51 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 19:30:51 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:30:51 "Loki" Attacked "Thor" and Dealt 56 Damage
+04/28/2024 19:30:51 "Thor" has 244 health left
+04/28/2024 19:30:51 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:30:51 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:30:51 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:30:51 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:30:51 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:30:51 "Thor" Attacked "Loki" and Dealt 180 Damage
+04/28/2024 19:30:51 "Loki" has -160 health left
+04/28/2024 19:30:51 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:30:51 Game Over
+04/28/2024 19:30:51 Human Warriors: 2
+04/28/2024 19:30:51 SuperHuman Warriors: 3
+04/28/2024 19:30:51 Alien Warriors: 2
+04/28/2024 19:30:51 Total Warriors: 7
+04/28/2024 19:30:51 Warrior: "Iron Man"
+04/28/2024 19:30:51 Warrior: "Loki"
+04/28/2024 19:30:51 Warrior: "Hawkeye"
+04/28/2024 19:30:51 Warrior: "Black Widow"
+04/28/2024 19:30:51 Warrior: "Thor"
+04/28/2024 19:30:51 Warrior: "Hulk"
+04/28/2024 19:30:51 Warrior: "Captain America"
+04/28/2024 19:34:07 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:34:07 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:34:07 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:34:07 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:34:07 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:34:07 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:34:07 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 19:34:07 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 19:34:07 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:34:07 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 19:34:07 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:34:07 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:34:07 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:34:07 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:34:07 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:34:07 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 19:34:07 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:34:07 Game Over
+04/28/2024 19:34:07 Human Warriors: 2
+04/28/2024 19:34:07 SuperHuman Warriors: 3
+04/28/2024 19:34:07 Alien Warriors: 2
+04/28/2024 19:34:07 Total Warriors: 7
+04/28/2024 19:34:07 Warrior: "Iron Man"
+04/28/2024 19:34:07 Warrior: "Black Widow"
+04/28/2024 19:34:07 Warrior: "Loki"
+04/28/2024 19:34:07 Warrior: "Captain America"
+04/28/2024 19:34:07 Warrior: "Hulk"
+04/28/2024 19:34:07 Warrior: "Thor"
+04/28/2024 19:34:07 Warrior: "Hawkeye"
+04/28/2024 19:35:42 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:35:42 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:35:42 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:35:42 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:35:42 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:35:42 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:35:42 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 19:35:42 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 19:35:42 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:35:42 Melee Weapon "Hammer" lost 4.2 durability. Durability left: 95.8
+04/28/2024 19:35:42 Melee Weapon "Hammer" blocked 42 damage
+04/28/2024 19:35:42 Weapon "Hammer" grants 20 block chance
+04/28/2024 19:35:42 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 19:35:42 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:35:42 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:35:42 Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:35:42 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:35:42 Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:35:42 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 19:35:42 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:35:42 Game Over
+04/28/2024 19:35:42 Human Warriors: 2
+04/28/2024 19:35:42 SuperHuman Warriors: 3
+04/28/2024 19:35:42 Alien Warriors: 2
+04/28/2024 19:35:42 Total Warriors: 7
+04/28/2024 19:35:42 Warrior: "Black Widow"
+04/28/2024 19:35:42 Warrior: "Hawkeye"
+04/28/2024 19:35:42 Warrior: "Iron Man"
+04/28/2024 19:35:42 Warrior: "Hulk"
+04/28/2024 19:35:42 Warrior: "Captain America"
+04/28/2024 19:35:42 Warrior: "Loki"
+04/28/2024 19:35:42 Warrior: "Thor"
+04/28/2024 19:49:48 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:49:48 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:49:48 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:49:48 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:49:48 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 19:49:48 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 19:49:48 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:49:48 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/28/2024 19:49:48 Melee Weapon "Axe" blocked 60 damage
+04/28/2024 19:49:48 "Thor" Blocked Enemy Attack
+04/28/2024 19:49:48 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:49:48 Melee Weapon "Hammer" dealt 60 bonus damage reduced to 54 due to enemy's armor
+04/28/2024 19:49:48 Melee Weapon "Axe" dealt 80 bonus damage reduced to 72 due to enemy's armor
+04/28/2024 19:49:48 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 19:49:48 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:49:48 Game Over
+04/28/2024 19:49:48 Human Warriors: 2
+04/28/2024 19:49:48 SuperHuman Warriors: 3
+04/28/2024 19:49:48 Alien Warriors: 2
+04/28/2024 19:49:48 Total Warriors: 7
+04/28/2024 19:49:48 Warrior: "Captain America"
+04/28/2024 19:49:48 Warrior: "Hulk"
+04/28/2024 19:49:48 Warrior: "Hawkeye"
+04/28/2024 19:49:48 Warrior: "Thor"
+04/28/2024 19:49:48 Warrior: "Loki"
+04/28/2024 19:49:48 Warrior: "Iron Man"
+04/28/2024 19:49:48 Warrior: "Black Widow"
+04/28/2024 19:56:21 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:56:21 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:56:21 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 19:56:21 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 19:56:21 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 19:56:21 Ranged Weapon "Staff" dealt 28 damage to warrior "Thor"
+04/28/2024 19:56:21 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:56:21 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/28/2024 19:56:21 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 19:56:21 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:56:21 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 19:56:21 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 19:56:21 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 19:56:21 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:56:21 Game Over
+04/28/2024 19:56:21 Human Warriors: 2
+04/28/2024 19:56:21 SuperHuman Warriors: 3
+04/28/2024 19:56:21 Alien Warriors: 2
+04/28/2024 19:56:21 Total Warriors: 7
+04/28/2024 19:56:21 Warrior: "Hulk"
+04/28/2024 19:56:21 Warrior: "Thor"
+04/28/2024 19:56:21 Warrior: "Loki"
+04/28/2024 19:56:21 Warrior: "Hawkeye"
+04/28/2024 19:56:21 Warrior: "Black Widow"
+04/28/2024 19:56:21 Warrior: "Captain America"
+04/28/2024 19:56:21 Warrior: "Iron Man"
+04/28/2024 19:58:51 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 19:58:51 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:58:51 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 19:58:51 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 19:58:51 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 19:58:51 Melee Warrior "Thor" blocked enemy attack
+04/28/2024 19:58:51 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/28/2024 19:58:51 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 19:58:51 Melee Warrior "Thor" attacked "Loki"
+04/28/2024 19:58:51 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 19:58:51 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 19:58:51 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 19:58:51 "Loki" has Died and "Thor" is Victorious
+04/28/2024 19:58:51 Game Over
+04/28/2024 19:58:51 Human Warriors: 2
+04/28/2024 19:58:51 SuperHuman Warriors: 3
+04/28/2024 19:58:51 Alien Warriors: 2
+04/28/2024 19:58:51 Total Warriors: 7
+04/28/2024 19:58:51 Warrior: "Hulk"
+04/28/2024 19:58:51 Warrior: "Black Widow"
+04/28/2024 19:58:51 Warrior: "Hawkeye"
+04/28/2024 19:58:51 Warrior: "Thor"
+04/28/2024 19:58:51 Warrior: "Loki"
+04/28/2024 19:58:51 Warrior: "Iron Man"
+04/28/2024 19:58:51 Warrior: "Captain America"
+04/28/2024 20:01:01 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 20:01:01 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 20:01:01 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 20:01:01 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 20:01:01 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/28/2024 20:01:01 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 20:01:01 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 20:01:01 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 20:01:01 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 20:01:01 "Loki" has Died and "Thor" is Victorious
+04/28/2024 20:01:01 Game Over
+04/28/2024 20:01:01 Human Warriors: 2
+04/28/2024 20:01:01 SuperHuman Warriors: 3
+04/28/2024 20:01:01 Alien Warriors: 2
+04/28/2024 20:01:01 Total Warriors: 7
+04/28/2024 20:01:01 Warrior: "Iron Man"
+04/28/2024 20:01:01 Warrior: "Loki"
+04/28/2024 20:01:01 Warrior: "Captain America"
+04/28/2024 20:01:01 Warrior: "Hulk"
+04/28/2024 20:01:01 Warrior: "Thor"
+04/28/2024 20:01:01 Warrior: "Black Widow"
+04/28/2024 20:01:01 Warrior: "Hawkeye"
+04/28/2024 20:03:04 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/28/2024 20:03:04 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 20:03:04 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 20:03:04 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/28/2024 20:03:04 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/28/2024 20:03:04 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/28/2024 20:03:04 Melee Weapon "Hammer" dealt 60 bonus damage
+04/28/2024 20:03:04 Melee Weapon "Axe" dealt 80 bonus damage
+04/28/2024 20:03:04 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/28/2024 20:03:04 "Loki" has Died and "Thor" is Victorious
+04/28/2024 20:03:04 Game Over

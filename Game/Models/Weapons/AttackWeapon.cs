@@ -18,29 +18,33 @@ namespace Game.Models.Weapons
         {
         }
 
-        public override void Attack(Warrior enemyWarrior)
+        public override double Attack(Warrior enemyWarrior)
         {
-            int randomBlock = random.Next(1, 100);
+            //int randomBlock = random.Next(1, 100);
 
-            if (randomBlock < enemyWarrior.BlockChance)
+            //if (randomBlock < enemyWarrior.BlockChance)
+            //{
+            //    Log.Information("{Type} attack was blocked", Type);
+            //    return 0;
+            //}
+
+            double damageAfterArmorReduce = Damage - (Damage * ((enemyWarrior.Armor ?? 0) / 100));
+
+            if (damageAfterArmorReduce > 0)
             {
-                Log.Information("{Type} attack was blocked", Type);
-                return;
-            }
-
-            double damageDealt = Damage - (enemyWarrior.Armor ?? 0);
-
-            if (damageDealt > 0)
-            {
-                enemyWarrior.Health = enemyWarrior.Health - damageDealt;
-                Log.Information("Warrior {enemyWarrior} took {damageDealt} damage", enemyWarrior.Name, damageDealt);
+                //enemyWarrior.Health = enemyWarrior.Health - damageAfterArmorReduce;
+                Log.Information("Attack Weapon {Type} dealt {damageAfterArmorReduce} damage to warrior {enemyWarrior}", Type, damageAfterArmorReduce, enemyWarrior.Name);
                 if (enemyWarrior.Health <= 0)
                 {
-                    Log.Information("Warrior {enemyWarrior} died", enemyWarrior.Name);
+                    Log.Information("Attack Weapon {Type} killed warrior {enemyWarrior}", Type, enemyWarrior.Name);
                 }
             }
+            else
+            {
+                Log.Information("Attack Weapon {Type} dealt no damage to {enemyWarrior}", Type, enemyWarrior.Name);
+            }
 
-            Log.Information("Weapon {Type} deals 0 damage to {enemyWarrior}", Type, enemyWarrior.Name);
+            return (double)Damage;
         }
     }
 }

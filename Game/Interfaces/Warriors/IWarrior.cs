@@ -22,12 +22,12 @@ namespace Game.Interfaces.Warriors
         double? Perception { get; set; }
         double? Intelligence { get; set; }
         int? Level { get; set; }
-        double? BaseAttackDamage { get; }
+        double? BonusAttackDamage { get; }
         List<Weapon> Weapons { get; set; }
         List<Weapon> WeaponsInUse { get; set; }
         int? MaxWeaponsInUseAtOnce { get; set; }
 
         double Attack(Warrior enemyWarrior);
-        bool Block();
+        bool Block(Warrior? enemyWarrior);
     }
 }

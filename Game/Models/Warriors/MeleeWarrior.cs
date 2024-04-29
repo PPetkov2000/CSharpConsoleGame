@@ -22,14 +22,14 @@ namespace Game.Models.Warriors
 
         public override double Attack(Warrior enemyWarrior)
         {
-            //Log.Information($"Melee Warrior {Name} attacks {enemyWarrior}", Name, enemyWarrior.Name);
+            //Log.Information("Melee Warrior {Name} attacked {enemyWarrior}", Name, enemyWarrior.Name);
             return base.Attack(enemyWarrior);
         }
 
-        public override bool Block()
+        public override bool Block(Warrior? enemyWarrior)
         {
-            //Log.Information("Melee Warrior {Name} blocks enemy attack", Name);
-            return base.Block();
+            //Log.Information("Melee Warrior {Name} blocked enemy attack", Name);
+            return base.Block(enemyWarrior);
         }
     }
 }

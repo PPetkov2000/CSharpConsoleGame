@@ -6,12 +6,11 @@ namespace Game.Models.Weapons
 {
     public class RangedWeapon : Weapon
     {
-        public double range = 0;
-        public int ammo = 0;
-        public int? ammoFiller = 20;
-        public int? ammoFillerSize = 20;
-        public double? manaCost = 0;
-        public double? accuarcy = 0;
+        public double Range = 0;
+        public int Ammo = 0;
+        public int? AmmoFiller = 20;
+        public int? AmmoFillerSize = 20;
+        public double? Accuarcy = 0;
 
         Random random = new Random();
 
@@ -24,7 +23,6 @@ namespace Game.Models.Weapons
             int ammo = 0,
             int ammoFiller = 20,
             int ammoFillerSize = 20,
-            double manaCost = 0,
             double accuracy = 0
         ) : base(type)
         {
@@ -32,20 +30,19 @@ namespace Game.Models.Weapons
             Damage = damage;
             Durability = durability;
             Weight = weight;
-            this.range = range;
-            this.ammo = ammo;
-            this.ammoFiller = ammoFiller;
-            this.ammoFillerSize = ammoFillerSize;
-            this.manaCost = manaCost;
-            this.accuarcy = accuracy;
+            Range = range;
+            Ammo = ammo;
+            AmmoFiller = ammoFiller;
+            AmmoFillerSize = ammoFillerSize;
+            Accuarcy = accuracy;
         }
 
-        public override void Attack(Warrior enemyWarrior)
+        public override double Attack(Warrior enemyWarrior)
         {
-            if (this.ammo <= 0)
+            if (Ammo <= 0)
             {
                 Log.Information("Can't attack, weapon {Type} is out of ammo", Type);
-                return;
+                return 0;
             }
 
             //int randomBlock = random.Next(1, 100);
@@ -56,52 +53,57 @@ namespace Game.Models.Weapons
             //    return;
             //}
 
-            if (this.ammoFillerSize == null || this.ammoFillerSize <= 0)
+            if (Ammo != int.MaxValue)
             {
-                this.ammo -= 1;
-            }
-            else
-            {
-                this.Reload();
+                if (AmmoFillerSize == null || AmmoFillerSize <= 0)
+                {
+                    Ammo -= 1;
+                }
+                else
+                {
+                    this.Reload();
+                }
             }
 
             double damageAfterArmorReduce = Damage - (Damage * ((enemyWarrior.Armor ?? 0) / 100));
 
             if (damageAfterArmorReduce > 0)
             {
-                enemyWarrior.Health = enemyWarrior.Health - damageAfterArmorReduce;
-                Log.Information("Warrior {enemyWarrior} took {damageAfterArmorReduce} damage from weapon {Type}", enemyWarrior.Name, damageAfterArmorReduce, Type);
-                if (enemyWarrior.Health <= 0)
-                {
-                    Log.Information("Warrior {enemyWarrior} was killed with weapon {Type}", enemyWarrior.Name, Type);
-                }
+                //enemyWarrior.Health = enemyWarrior.Health - damageAfterArmorReduce;
+                //Log.Information("Ranged Weapon {Type} dealt {damageAfterArmorReduce} damage to warrior {enemyWarrior}", Type, damageAfterArmorReduce, enemyWarrior.Name);
+                //if (enemyWarrior.Health <= 0)
+                //{
+                //    Log.Information("Ranged Weapon {Type} killed warrior {enemyWarrior}", Type, enemyWarrior.Name);
+                //}
             }
             else
             {
-                Log.Information("Weapon {Type} deals no damage to {enemyWarrior}", Type, enemyWarrior.Name);
+                Log.Information("Ranged Weapon {Type} dealt no damage to {enemyWarrior}", Type, enemyWarrior.Name);
             }
+
+            return (double)Damage;
         }
 
         private void Reload()
         {
-            if (this.ammo <= 0)
+            if (Ammo <= 0)
             {
                 Log.Information("Can't reload, weapon {Type} is out of ammo", Type);
                 return;
             }
-            if (this.ammoFiller < this.ammoFillerSize)
+            if (AmmoFiller < AmmoFillerSize)
             {
-                int ammoToFill = (int)this.ammoFillerSize - (int)this.ammoFiller;
-                if (this.ammo < ammoToFill)
+                int ammoToFill = (int)AmmoFillerSize - (int)AmmoFiller;
+                if (Ammo < ammoToFill)
                 {
-                    this.ammoFiller += this.ammo;
-                    Log.Information("There is not enough ammo to fully reload the weapon. Reloaded for {ammo} ammo. Total ammo in filler: {ammoFiller}", this.ammo, this.ammoFiller);
+                    AmmoFiller += Ammo;
+                    Log.Information("There is not enough ammo to fully reload the weapon. Reloaded for {ammo} ammo. Total ammo in filler: {ammoFiller}", Ammo, AmmoFiller);
                 }
                 else
                 {
-                    this.ammo -= ammoToFill;
-                    this.ammoFiller += ammoToFill;
-                    Log.Information("Weapon {Type} reloaded. Ammo left: {ammo}", Type, this.ammo);
+                    Ammo -= ammoToFill;
+                    AmmoFiller += ammoToFill;
+                    Log.Information("Weapon {Type} reloaded. Ammo left: {ammo}", Type, Ammo);
                 }
             }
             else

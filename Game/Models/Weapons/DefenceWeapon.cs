@@ -10,46 +10,57 @@ namespace Game.Models.Weapons
 
         public DefenceWeapon(
             string type = "DefenceWeapon",
-            double durability = 0,
             double damage = 0,
-            double weight = 0,
-            double maxBlockDamage = 0,
-            double attackSpeed = 0
+            double? durability = 0,
+            double? weight = 0,
+            double? blockChance = 0,
+            double? maxBlockDamage = 0
         ) : base(type)
         {
+            Type = type;
+            Damage = damage;
+            Durability = durability;
+            Weight = weight;
+            BlockChance = blockChance;
+            MaxBlockDamage = maxBlockDamage;
         }
 
-        public void Defence(Warrior enemyWarrior)
+        public double Defence(Warrior? enemyWarrior)
         {
-            if (Broken == false)
+            if (BlockChance == null || BlockChance <= 0)
             {
-                return;
+                return 0;
             }
-            //var enemyWarriorDamageAfterArmorReduce = enemyWarrior.AttackDamage - (enemyWarrior.AttackDamage * (currentWarrior.Armor / 100));
-            double enemyWarriorAttackDamage = (enemyWarrior.AttackDamage ?? 0);
-            int randomBlockDamage = random.Next(1, (int)(MaxBlockDamage ?? 0));
-            double damageTaken = enemyWarriorAttackDamage - randomBlockDamage;
-
-            if (enemyWarrior.AttackDamage >= MaxBlockDamage)
+            if (enemyWarrior == null)
             {
-                double lostDurability = (enemyWarriorAttackDamage / (enemyWarriorAttackDamage - (MaxBlockDamage ?? 0)));
-                Durability = Durability - lostDurability;
+                return 0;
+            }
+            if (Durability <= 0)
+            {
+                Log.Information("Defence Weapon {Type} can't be used to block enemy attack because it is broken", Type);
+                return 0;
+            }
+
+            double enemyWarriorAttackDamage = ((enemyWarrior.AttackDamage + enemyWarrior.BonusAttackDamage) ?? 0);
+            //var damageAfterArmorReduce = enemyWarriorAttackDamage - (enemyWarriorAttackDamage * (currentWarrior.Armor / 100));
+
+            if (enemyWarriorAttackDamage >= MaxBlockDamage)
+            {
+                //var damageOverMaxBlockDamage = enemyWarriorAttackDamage - MaxBlockDamage;
+                //var durabilyLost = damageOverMaxBlockDamage / 10;
+                double durabilyLost = (enemyWarriorAttackDamage / (enemyWarriorAttackDamage - (MaxBlockDamage ?? 0)));
+                Durability = Durability - durabilyLost;
                 if (Durability <= 0)
                 {
-                    Log.Information("Weapon {Type} is broken and can't be used anymore", Type);
-                    Broken = true;
-                    return;
+                    Log.Information("Defence Weapon {Type} has broken", Type);
                 }
-                Log.Information("Weapon {Type} lost {lostDurability} durability", Type, lostDurability);
+                else
+                {
+                    Log.Information("Defence Weapon {Type} lost {durabilyLost} durability. Durability left: {Durability}", Type, Math.Round((decimal)durabilyLost, 2), Durability);
+                }
             }
-
-            if (damageTaken <= 0)
-            {
-                Log.Information("Weapon {Type} blocks enemy attack", Type);
-                return;
-            }
-
-            Log.Information("Weapon {Type} blocks {randomBlockDamage} damage", Type, randomBlockDamage);
+            //Log.Information("Defence Weapon {Type} blocked enemy attack", Type);
+            return (double)BlockChance;
         }
     }
 }

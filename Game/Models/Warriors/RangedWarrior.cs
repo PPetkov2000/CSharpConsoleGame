@@ -25,7 +25,7 @@ namespace Game.Models.Warriors
             AttackDamage = attackDamage;
             Armor = armor;
             BlockChance = blockChance;
-            Weapons = weapons;
+            Weapons = weapons ?? new List<Weapon>();
             Accuracy = accuracy;
         }
 
@@ -37,14 +37,14 @@ namespace Game.Models.Warriors
                 Log.Information("Ranged Warrior {Name} attack missed", Name);
                 return 0;
             }
-            Log.Information("Ranged Warrior {Name} attacks {enemyWarrior}", Name, enemyWarrior.Name);
+            Log.Information("Ranged Warrior {Name} attacked {enemyWarrior}", Name, enemyWarrior.Name);
             return base.Attack(enemyWarrior);
         }
 
-        public override bool Block()
+        public override bool Block(Warrior? enemyWarrior)
         {
-            Log.Information("Ranged Warrior {Name} blocks enemy attack", Name);
-            return base.Block();
+            Log.Information("Ranged Warrior {Name} blocked enemy attack", Name);
+            return base.Block(enemyWarrior);
         }
     }
 }

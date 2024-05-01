@@ -1,0 +1,11 @@
+04/29/2024 23:34:08 Battle between "Thor" (level 1) and "Loki" (level 1) started
+04/29/2024 23:34:08 Melee Weapon "Hammer" dealt 60 bonus damage
+04/29/2024 23:34:08 Melee Weapon "Axe" dealt 80 bonus damage
+04/29/2024 23:34:08 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has 20 health left
+04/29/2024 23:34:08 Melee Weapon "Axe" lost 1 durability. Durability left: 99
+04/29/2024 23:34:08 "Loki" Attacked "Thor" and Dealt 56 Damage. "Thor" has 244 health left
+04/29/2024 23:34:08 Melee Weapon "Hammer" dealt 60 bonus damage
+04/29/2024 23:34:08 Melee Weapon "Axe" dealt 80 bonus damage
+04/29/2024 23:34:08 "Thor" Attacked "Loki" and Dealt 180 Damage. "Loki" has -160 health left
+04/29/2024 23:34:08 "Loki" has Died and "Thor" is Victorious
+04/29/2024 23:34:08 Game Over

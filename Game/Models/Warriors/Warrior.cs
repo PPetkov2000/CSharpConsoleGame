@@ -16,7 +16,6 @@ namespace Game.Models.Warriors
         public double? BlockChance { get; set; } = 0;
         public double? Stamina { get; set; } = 100;
         public double? Energy { get; set; } = 0;
-        public double? Mana { get; set; } = 0;
         public double? Weight { get; set; } = 0;
         public double? Speed { get; set; } = 0;
         public double? Agility { get; set; } = 0;
@@ -42,7 +41,6 @@ namespace Game.Models.Warriors
         //double? blockChance = 0,
         //double? stamina = 100,
         //double? energy = 0,
-        //double? mana = 0,
         //double? weight = 0,
         //double? speed = 0,
         //double? agility = 0,
@@ -64,7 +62,6 @@ namespace Game.Models.Warriors
             //BlockChance = blockChance;
             //Stamina = stamina;
             //Energy = energy;
-            //Mana = mana;
             //Weight = weight;
             //Speed = speed;
             //Agility = agility;

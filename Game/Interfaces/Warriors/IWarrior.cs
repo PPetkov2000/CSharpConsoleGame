@@ -14,7 +14,6 @@ namespace Game.Interfaces.Warriors
         double? BlockChance { get; set; }
         double? Stamina { get; set; }
         double? Energy { get; set; }
-        double? Mana { get; set; }
         double? Weight { get; set; }
         double? Speed { get; set; }
         double? Agility { get; set; }

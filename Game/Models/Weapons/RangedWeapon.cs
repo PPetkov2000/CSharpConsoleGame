@@ -45,14 +45,6 @@ namespace Game.Models.Weapons
                 return 0;
             }
 
-            //int randomBlock = random.Next(1, 100);
-
-            //if (randomBlock < enemyWarrior.BlockChance)
-            //{
-            //    Log.Information("{Type} attack was blocked", Type);
-            //    return;
-            //}
-
             if (Ammo != int.MaxValue)
             {
                 if (AmmoFillerSize == null || AmmoFillerSize <= 0)
@@ -70,11 +62,11 @@ namespace Game.Models.Weapons
             if (damageAfterArmorReduce > 0)
             {
                 //enemyWarrior.Health = enemyWarrior.Health - damageAfterArmorReduce;
-                //Log.Information("Ranged Weapon {Type} dealt {damageAfterArmorReduce} damage to warrior {enemyWarrior}", Type, damageAfterArmorReduce, enemyWarrior.Name);
-                //if (enemyWarrior.Health <= 0)
-                //{
-                //    Log.Information("Ranged Weapon {Type} killed warrior {enemyWarrior}", Type, enemyWarrior.Name);
-                //}
+                Log.Information("Ranged Weapon {Type} dealt {BonusDamage} bonus damage", Type, Damage);
+                if (enemyWarrior.Health <= 0)
+                {
+                    Log.Information("Ranged Weapon {Type} killed warrior {enemyWarrior}", Type, enemyWarrior.Name);
+                }
             }
             else
             {
@@ -97,7 +89,7 @@ namespace Game.Models.Weapons
                 if (Ammo < ammoToFill)
                 {
                     AmmoFiller += Ammo;
-                    Log.Information("There is not enough ammo to fully reload the weapon. Reloaded for {ammo} ammo. Total ammo in filler: {ammoFiller}", Ammo, AmmoFiller);
+                    Log.Information("There is not enough ammo to fully reload the weapon. Weapon {Type} reloaded for {ammo} ammo. Total ammo in filler: {ammoFiller}", Type, Ammo, AmmoFiller);
                 }
                 else
                 {
@@ -108,7 +100,7 @@ namespace Game.Models.Weapons
             }
             else
             {
-                Log.Information("Can't reload, ammo filler is full");
+                Log.Information("Can't reload weapon {Type}, ammo filler is full", Type);
             }
         }
     }

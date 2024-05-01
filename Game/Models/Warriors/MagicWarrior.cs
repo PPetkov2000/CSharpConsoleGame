@@ -4,6 +4,8 @@ namespace Game.Models.Warriors
 {
     public class MagicWarrior : Warrior
     {
+        public double? Mana { get; set; } = 0;
+
         public MagicWarrior(
             string name = "MagicWarrior",
             int health = 100,

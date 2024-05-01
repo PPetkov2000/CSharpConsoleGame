@@ -20,14 +20,6 @@ namespace Game.Models.Weapons
 
         public override double Attack(Warrior enemyWarrior)
         {
-            //int randomBlock = random.Next(1, 100);
-
-            //if (randomBlock < enemyWarrior.BlockChance)
-            //{
-            //    Log.Information("{Type} attack was blocked", Type);
-            //    return 0;
-            //}
-
             double damageAfterArmorReduce = Damage - (Damage * ((enemyWarrior.Armor ?? 0) / 100));
 
             if (damageAfterArmorReduce > 0)
